@@ -1,1 +1,332 @@
 Hola, soy Pamela, y me gustan los perros. Futura Ing. Computación. Me gusta viajar.
+
+Ejemplo en terminal:
+
+Last login: Wed Jan 10 20:35:41 on ttys000
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % ls
+pamela.txt
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git status
+warning: could not open directory '.Trash/': Operation not permitted
+warning: could not open directory 'Documents/Library/': Permission denied
+On branch main
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	deleted:    ../../../../Documents/devf/JAVASCRIPT/clase1/index.html
+	deleted:    ../../../../Documents/devf/JAVASCRIPT/clase1/readme.txt
+	deleted:    ../../../../Documents/devf/JAVASCRIPT/clase1/styles.css
+	deleted:    ../../../../Documents/devf/JAVASCRIPT/clase4_js/index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../../../../.CFUserTextEncoding
+	../../../../.android/
+	../../../../.appinventor/
+	../../../../.bash_history
+	../../../../.config/
+	../../../../.configprops/
+	../../../../.cricut-design-space/
+	../../../../.cups/
+	../../../../.datastorage/
+	../../../../.emulator_console_auth_token
+	../../../../.gitconfig
+	../../../../.gitignore_global
+	../../../../.hello.py.swp
+	../../../../.hola.py.swp
+	../../../../.jssc/
+	../../../../.lesshst
+	../../../../.node_repl_history
+	../../../../.npm/
+	../../../../.python_history
+	../../../../.quokka/
+	../../../../.viminfo
+	../../../../.vscode/
+	../../../../.wdc/
+	../../../../.zsh_history
+	../../../../.zsh_sessions/
+	../../../../Applications/
+	../../../../Creative Cloud Files illustratorprograma@gmail.com b660b82b644589ed23e9293fa8ebe08117200c2999bba51e0437433e23090150/
+	../../../../Creative Cloud Files pamelahd.1996@gmail.com 4fa15c6b44a12cd619da9c88558bee30c932dd437dac32ec0aab25d7024b4a86/
+	../../../../Creative Cloud Files/
+	../../../
+	../../../../Documents/.localized
+	../../../../Documents/12 UX | UI Front End/
+	../../../../Documents/1987.ai
+	../../../../Documents/394505837_366480512397008_4352130860024740681_n.jpg
+	../../../../Documents/56506 [Convertido]-03.png
+	../../../../Documents/Adobe/
+	../../../../Documents/CODE/
+	../../../../Documents/Camion 3.xlsx
+	../../../../Documents/Cancun 2022.m4v
+	../../../../Documents/Concentrado Alumnos Calificaciones.xlsx
+	../../../../Documents/Concentrado Alumnos.xlsx
+	../../../../Documents/DISENO PAMELA REDES/
+	../../../../Documents/Docs Pamela/
+	"../../../../Documents/Exam review Ingl\303\251s 3ro.docx"
+	../../../../Documents/FIEL_HEDP960605MB2_20220429121049.zip
+	../../../../Documents/FIEL_HEDP960605MB2_20220429121049/
+	../../../../Documents/FINAL GRADES TICS.xlsx
+	../../../../Documents/FOTOS/
+	../../../../Documents/Fam Martinez Herrera-03.png
+	../../../../Documents/Finance.xlsx
+	../../../../Documents/GRADES INGLES EVIDENCE 3.xlsx
+	../../../../Documents/GUADALAJARA/
+	../../../../Documents/IMG_0279.HEIC
+	"../../../../Documents/Insurance flyer Adriana Espa\303\261ol.png"
+	"../../../../Documents/Insurance flyer Adriana Ingl\303\251s.png"
+	../../../../Documents/Insurance flyer Alicia Torres Espanol-14.png
+	"../../../../Documents/Insurance flyer Raquel Espa\303\261ol.png"
+	"../../../../Documents/Insurance flyer Raquel_Ingl\303\251s.png"
+	../../../../Documents/Insurance flyer paty [Recuperado].ai
+	../../../../Documents/Insurance flyer paty.ai
+	../../../../Documents/Insurance flyer_Adriana Espanol.png
+	../../../../Documents/Insurance flyer_AdrianaIngles.png
+	../../../../Documents/Insurance flyer_Magdalena Espanol.png
+	../../../../Documents/Insurance flyer_MagdalenaIngles.png
+	../../../../Documents/Insurance flyer_Maria Espanol.png
+	../../../../Documents/Insurance flyer_Mariano Espanol.png
+	../../../../Documents/Insurance flyer_Mariano Ingles.png
+	../../../../Documents/Insurance flyer_Norma Espanol.png
+	../../../../Documents/Insurance flyer_Norma Ingles.png
+	../../../../Documents/Insurance flyer_Raquel Espanol.png
+	../../../../Documents/Insurance flyer_Raquel Ingles.png
+	../../../../Documents/LICENCIA/
+	../../../../Documents/LINEA EXPRESS/
+	../../../../Documents/LOGOS XMARCA/
+	../../../../Documents/Microsoft_Office_16.39.20071300_BusinessPro_Installer.pkg.download/
+	"../../../../Documents/Seguimiento Acad\303\251mico_Ingl\303\251s402.xlsx"
+	"../../../../Documents/Seguimiento Acad\303\251mico_Tics 406.xlsx"
+	../../../../Documents/Seguimiento Flex.xlsx
+	"../../../../Documents/Sin t\303\255tulo-1-02.png"
+	"../../../../Documents/Sin t\303\255tulo-1-03.png"
+	"../../../../Documents/Sin t\303\255tulo-1-04.png"
+	"../../../../Documents/Sin t\303\255tulo-1-05.png"
+	"../../../../Documents/Sin t\303\255tulo-1.ai"
+	"../../../../Documents/Sin t\303\255tulo-2.pdf"
+	../../../../Documents/TECMI AD23/
+	../../../../Documents/TecMilenio/
+	../../../../Documents/VASOSANGELA-04.png
+	../../../../Documents/Wrap-02.png
+	../../../../Documents/Wrap-03.png
+	../../../../Documents/Zoom/
+	../../../../Documents/daily UI/
+	../../../../Documents/deudaiphone.xlsx
+	../../../../Documents/do-does-did-done.jpeg
+	../../../../Documents/dropdead+pamelaherrera/
+	../../../../Documents/etiquetasrenata.ai
+	../../../../Documents/expenses.xlsx
+	../../../../Documents/flexbox/
+	../../../../Documents/lamichoacana.ai
+	../../../../Documents/lamichoacana.png
+	../../../../Documents/lamichoacana_Mesa de trabajo 1 copia 2.png
+	../../../../Documents/lamichoacana_Mesa de trabajo 1 copia 3.png
+	../../../../Documents/lamichoacana_Mesa de trabajo 1 copia 5.png
+	../../../../Documents/lamichoacana_Mesa de trabajo 1 copia.png
+	../../../../Documents/lamichoacana_Mesa de trabajo 1.png
+	"../../../../Documents/listado tel\303\251fonos.xlsx"
+	../../../../Documents/logopaco.ai
+	../../../../Documents/logopaco.eps
+	../../../../Documents/logopaco.svg
+	../../../../Documents/logosxmarca.ai
+	../../../../Documents/map.png
+	../../../../Documents/medusa.png
+	../../../../Documents/nametags_medicare-12.png
+	../../../../Documents/nametags_medicare-13.png
+	../../../../Documents/openbootcamp/
+	../../../../Documents/pamela.jpeg
+	../../../../Documents/pet tag-03.png
+	../../../../Documents/reading.png
+	../../../../Documents/selahandmade/
+	../../../../Documents/shanty2dec-06.png
+	../../../../Documents/shantyhappybday-02.png
+	../../../../Documents/shantyjan27.ai
+	../../../../Documents/shantyjan27_Mesa de trabajo 1 copia.png
+	../../../../Documents/shantyjan27_Mesa de trabajo 1.png
+	../../../../Documents/shantyvalentines-01.png
+	../../../../Documents/shantyvalentines-02.png
+	../../../../Documents/shantyvalentines-03.png
+	../../../../Documents/shantyvalentines-04.png
+	../../../../Documents/shantyviernes21-02.png
+	../../../../Documents/shantyviernes21-03.png
+	../../../../Documents/shantyviernes21-04.png
+	../../../../Documents/shantyviernes21-05.png
+	../../../../Documents/shantyviernes21-06.png
+	../../../../Documents/shantyviernes21.ai
+	../../../../Documents/tarjetasnavidad22.ai
+	../../../../Documents/tarjetasnavidad22_Mesa de trabajo 1 copia 2.png
+	../../../../Documents/tarjetasnavidad22_Mesa de trabajo 1 copia.png
+	../../../../Documents/tarjetasnavidad22_Mesa de trabajo 1.png
+	../../../../Documents/vasosrodrigo-03.png
+	../../../../Documents/vasosrodrigo-04.png
+	../../../../Documents/web dev practice/
+	../../../../Documents/~$Seguimiento Flex.xlsx
+	../../../../Documents/~$TICS VERANO.pptx
+	../../../../Documents/~ai-cfa0932a-558a-4037-be42-9e6168f687a5_.tmp
+	../../../../Downloads/
+	../../../../Library/
+	../../../../Movies/
+	../../../../Music/
+	../../../../Pictures/
+	../../../../Public/
+	../../../../UTEP.docx
+	../../../../archivo.txt
+	../../../../archivocatcs1.txt
+	../../../../archivocatsc1.txt
+	../../../../archivocs1.txt
+	../../../../etiquetasmatty.pdf
+
+no changes added to commit (use "git add" and/or "git commit -a")
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git init
+Initialized empty Git repository in /Users/pamelaherrera/Desktop/DevF 24/Intro Web/Clase 6 - Git/.git/
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	pamela.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git add pamela.txt
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   pamela.txt
+
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git commit -m "archivo pamela"
+[main (root-commit) 368f7cd] archivo pamela
+ 1 file changed, 1 insertion(+)
+ create mode 100644 pamela.txt
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git status
+On branch main
+nothing to commit, working tree clean
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   pamela.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git commit -m "animales fav"
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   pamela.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git add .          
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   pamela.txt
+
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git commit -m "animales fav"
+[main 1204a2c] animales fav
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+	add
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git add .
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git commit -m "estudios"
+[main b570db4] estudios
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git log
+commit b570db4641c76bcd11c62bcc5e24bc6b85c44042 (HEAD -> main)
+Author: pammelitas <pamelahd.1996@gmail.com>
+Date:   Wed Jan 10 21:09:39 2024 -0700
+
+    estudios
+
+commit 1204a2ceb9e887da22902041b64aa3f56b9eb928
+Author: pammelitas <pamelahd.1996@gmail.com>
+Date:   Wed Jan 10 21:07:54 2024 -0700
+
+    animales fav
+
+commit 368f7cdcedfe9e63ae8fe337df988df92149cdf5
+Author: pammelitas <pamelahd.1996@gmail.com>
+Date:   Wed Jan 10 20:51:36 2024 -0700
+
+    archivo pamela
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git checkout commit 1204a2ceb9e887da22902041b64aa3f56b9eb928
+error: pathspec 'commit' did not match any file(s) known to git
+error: pathspec '1204a2ceb9e887da22902041b64aa3f56b9eb928' did not match any file(s) known to git
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git checkout 1204a2ceb9e887da22902041b64aa3f56b9eb928
+Note: switching to '1204a2ceb9e887da22902041b64aa3f56b9eb928'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 1204a2c animales fav
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git switch -
+Previous HEAD position was 1204a2c animales fav
+Switched to branch 'main'
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git checkout master
+error: pathspec 'master' did not match any file(s) known to git
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git checkout main
+Already on 'main'
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git branch example
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git branch
+  example
+* main
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git checkout example
+Switched to branch 'example'
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git add . 
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git commit -m "hobbies"
+[example 124718d] hobbies
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git status
+On branch example
+nothing to commit, working tree clean
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git checkout main 
+Switched to branch 'main'
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git checkout example
+Switched to branch 'example'
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git checkout main
+Switched to branch 'main'
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git merge example
+Updating b570db4..124718d
+Fast-forward
+ pamela.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git status
+On branch main
+nothing to commit, working tree clean
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git remote add origin https://github.com/pammelitas/ejerciciogit.git
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git remote -v
+origin	https://github.com/pammelitas/ejerciciogit.git (fetch)
+origin	https://github.com/pammelitas/ejerciciogit.git (push)
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git push -u origin main
+Enumerating objects: 12, done.
+Counting objects: 100% (12/12), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (12/12), 979 bytes | 979.00 KiB/s, done.
+Total 12 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/pammelitas/ejerciciogit.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % 
