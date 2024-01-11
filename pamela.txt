@@ -329,4 +329,35 @@ remote: Resolving deltas: 100% (1/1), done.
 To https://github.com/pammelitas/ejerciciogit.git
  * [new branch]      main -> main
 branch 'main' set up to track 'origin/main'.
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git add . 
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git commit -m "ejemplo terminal"
+[main e16997c] ejemplo terminal
+ 1 file changed, 332 insertions(+), 1 deletion(-)
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 3.65 KiB | 3.65 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/pammelitas/ejerciciogit.git
+   124718d..e16997c  main -> main
+branch 'main' set up to track 'origin/main'.
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git push
+Everything up-to-date
+pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % git pull origin main
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (5/5), done.
+Unpacking objects: 100% (6/6), 1.88 KiB | 275.00 KiB/s, done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+From https://github.com/pammelitas/ejerciciogit
+ * branch            main       -> FETCH_HEAD
+   e16997c..3482231  main       -> origin/main
+Updating e16997c..3482231
+Fast-forward
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)
+ create mode 100644 README.md
 pamelaherrera@Pamelas-MacBook-Pro Clase 6 - Git % 
+
